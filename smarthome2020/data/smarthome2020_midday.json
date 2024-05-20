@@ -1,0 +1,272 @@
+[
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 200,
+    "location": "guest bath",
+    "tag": "toilet",
+    "flag": "error",
+    "priority": 1,
+    "note": "Water running too long"
+  },
+  {
+    "type": "PersonMoveWork",
+    "timestamp": 500,
+    "location": "remote",
+    "tag": "Jill",
+    "flag": "on",
+    "priority": 2,
+    "note": "Home"
+  },
+  {
+    "type": "PersonStatus",
+    "timestamp": 600,
+    "location": "",
+    "tag": "Jill",
+    "flag": "free",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 1400,
+    "location": "utility room",
+    "tag": "lights",
+    "flag": "off",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 1500,
+    "location": "utility room",
+    "tag": "housekeeper",
+    "flag": "off",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveWork",
+    "timestamp": 1540,
+    "location": "office",
+    "tag": "Jill",
+    "flag": "on",
+    "priority": 1,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 1600,
+    "location": "garage",
+    "tag": "housekeeper",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "PersonStatus",
+    "timestamp": 1800,
+    "location": "",
+    "tag": "Jane",
+    "flag": "busy",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "PersonStatus",
+    "timestamp": 1800,
+    "location": "",
+    "tag": "Jane",
+    "flag": "free",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "Door",
+    "timestamp": 1900,
+    "location": "garage",
+    "tag": "housekeeper",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 2000,
+    "location": "garage",
+    "tag": "housekeeper",
+    "flag": "off",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 2100,
+    "location": "kitchen",
+    "tag": "housekeeper",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "Message",
+    "timestamp": 2200,
+    "location": "GitHub",
+    "tag": "Bob",
+    "flag": "work",
+    "priority": 2,
+    "note": "Commit to branch Apollo master: Completed working version of background upload feature and merged background-task branch"
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 2400,
+    "location": "kitchen",
+    "tag": "housekeeper",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "Message",
+    "timestamp": 2450,
+    "location": "Project Apollo Slack",
+    "tag": "spouse_1",
+    "flag": "work",
+    "priority": 1,
+    "note": "Hey team, I just committed the background upload feature to the repo. Please test when you have time."
+  },
+  {
+    "type": "Door",
+    "timestamp": 2500,
+    "location": "garage",
+    "tag": "housekeeper",
+    "flag": "off",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "Message",
+    "timestamp": 2900,
+    "location": "Project Apollo Slack",
+    "tag": "spouse_1",
+    "flag": "work",
+    "priority": 2,
+    "note": "From Jill: We need test coverage for the new background uploading feature on Android."
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 3000,
+    "location": "living room",
+    "tag": "wifi",
+    "flag": "error",
+    "priority": 1,
+    "note": "Error: Network unavailable"
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 4000,
+    "location": "kitchen",
+    "tag": "stove",
+    "flag": "on",
+    "priority": 2,
+    "note": "Burner 1 set to medium"
+  },
+  {
+    "type": "Message",
+    "timestamp": 13000,
+    "location": "",
+    "tag": "spouse_1",
+    "flag": "personal",
+    "priority": 1,
+    "note": "From Spouse 2: I'll pick up the kids from school today."
+  },
+  {
+    "type": "PackageDelivery",
+    "timestamp": 18000,
+    "location": "front porch",
+    "tag": "spouse_2",
+    "flag": "personal",
+    "priority": 1,
+    "note": "Prescriptiondirect.com: 30 count Blood Pressure Medication"
+  },
+  {
+    "type": "Door",
+    "timestamp": 18500,
+    "location": "garage",
+    "tag": "spouse_2",
+    "flag": "on",
+    "priority": 4,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 18600,
+    "location": "kitchen",
+    "tag": "kid_1",
+    "flag": "on",
+    "priority": 4,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 18600,
+    "location": "kitchen",
+    "tag": "kid_2",
+    "flag": "on",
+    "priority": 4,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 22000,
+    "location": "kids bedroom",
+    "tag": "kid_1",
+    "flag": "on",
+    "priority": 4,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 22200,
+    "location": "kids bedroom",
+    "tag": "kid_2",
+    "flag": "on",
+    "priority": 4,
+    "note": ""
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 23000,
+    "location": "kids bedroom",
+    "tag": "television",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 25000,
+    "location": "kids bedroom",
+    "tag": "kid_1",
+    "flag": "off",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 26000,
+    "location": "kitchen",
+    "tag": "kid_1",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "Message",
+    "timestamp": 26000,
+    "location": "",
+    "tag": "kid_1",
+    "flag": "personal",
+    "priority": 2,
+    "note": "From Mom: Hey sweetie, don’t forget to work on that homework this afternoon. It’s due on friday"
+  }
+]

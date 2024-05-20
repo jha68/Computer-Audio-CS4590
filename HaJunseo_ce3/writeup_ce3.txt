@@ -1,0 +1,3 @@
+I found that HP_CUTOFF = 1000 to be the best value and .5 for Gain Glide value when ducking.
+I added stop and start buttons for both music and voice. Ducking stops when voice is stopped.
+The challenge I faced was the UI. I think the start and stop buttons can be located differently for better design?

@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": 500,
+    "type": "ItemLocator",
+    "location": "Straight",
+    "tag": "Napa",
+    "note": "Keep straight to find your next item, Napa cabbage.",
+    "duration": 25500,
+    "priority": 2,
+    "proximity": 2
+  },
+  {
+    "timestamp": 7000,
+    "type": "ItemReader",
+    "tag": "Sweet Potato",
+    "note": "The item you are holding is sweet potatoes.",
+    "priority": 3
+  },
+  {
+    "timestamp": 26000,
+    "type": "ItemFoundAlert",
+    "tag": "Napa",
+    "priority": 2
+  },
+  {
+    "timestamp": 31000,
+    "type": "ItemLocator",
+    "location": "Back",
+    "tag": "Bananas",
+    "note": "Turn around to find your next item, bananas.",
+    "priority": 2,
+    "proximity": 7
+  },
+  {
+    "timestamp": 40000,
+    "type": "ItemReader",
+    "tag": "Spring onion",
+    "note": "The item you are holding is spring onions.",
+    "priority": 2
+  },
+  {
+    "timestamp": 50000,
+    "type": "ItemLocator",
+    "location": "Right",
+    "tag": "Bananas",
+    "priority": 2,
+    "proximity": 6
+  },
+  {
+    "timestamp": 66000,
+    "type": "ItemLocator",
+    "location": "Straight",
+    "tag": "Bananas",
+    "duration": 9000,
+    "priority": 2,
+    "proximity": 3
+  }
+]

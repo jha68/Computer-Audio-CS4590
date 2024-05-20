@@ -1,0 +1,272 @@
+[
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 200,
+    "location": "kitchen",
+    "tag": "kid_1",
+    "flag": "off",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "Door",
+    "timestamp": 1200,
+    "location": "front porch",
+    "tag": "kid_1",
+    "flag": "on",
+    "priority": 1,
+    "note": ""
+  },
+  {
+    "type": "Message",
+    "timestamp": 1200,
+    "location": "Teams",
+    "tag": "spouse_1",
+    "flag": "work",
+    "priority": 3,
+    "note": "From HR: Please submit your travel expense report for May by this Friday."
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 1700,
+    "location": "front porch",
+    "tag": "kid_1",
+    "flag": "on",
+    "priority": 1,
+    "note": ""
+  },
+  {
+    "type": "Door",
+    "timestamp": 1700,
+    "location": "front porch",
+    "tag": "kid_1",
+    "flag": "off",
+    "priority": 1,
+    "note": ""
+  },
+  {
+    "type": "PersonStatus",
+    "timestamp": 2700,
+    "location": "",
+    "tag": "Jill",
+    "flag": "busy",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "Door",
+    "timestamp": 4200,
+    "location": "back porch",
+    "tag": "kid_2",
+    "flag": "on",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 4300,
+    "location": "back porch",
+    "tag": "kid_2",
+    "flag": "on",
+    "priority": 1,
+    "note": ""
+  },
+  {
+    "type": "Door",
+    "timestamp": 4400,
+    "location": "back porch",
+    "tag": "kid_2",
+    "flag": "off",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "PersonStatus",
+    "timestamp": 4520,
+    "location": "",
+    "tag": "Bob",
+    "flag": "busy",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 9200,
+    "location": "kitchen",
+    "tag": "spouse_1",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 13200,
+    "location": "kitchen",
+    "tag": "stove",
+    "flag": "error",
+    "priority": 1,
+    "note": "Warning: Stove on and unattended for too long"
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 14200,
+    "location": "kitchen",
+    "tag": "stove",
+    "flag": "off",
+    "priority": 2,
+    "note": "Burner 1"
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 14300,
+    "location": "kitchen",
+    "tag": "stove",
+    "flag": "off",
+    "priority": 2,
+    "note": "Burner 2"
+  },
+  {
+    "type": "Meeting",
+    "timestamp": 14400,
+    "location": "BlueJeans",
+    "tag": "maybe",
+    "flag": "",
+    "priority": 4,
+    "note": "Project Apollo client demo planning"
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 24200,
+    "location": "utility room",
+    "tag": "washing machine",
+    "flag": "off",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "PackageDelivery",
+    "timestamp": 26200,
+    "location": "front porch",
+    "tag": "spouse_2",
+    "flag": "personal",
+    "priority": 1,
+    "note": "amazon.com: Lego Mindstorms birthday gift"
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 26200,
+    "location": "utility room",
+    "tag": "housekeeper",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 26250,
+    "location": "utility room",
+    "tag": "lights",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "Message",
+    "timestamp": 27200,
+    "location": "Project Apollo Slack",
+    "tag": "spouse_1",
+    "flag": "work",
+    "priority": 2,
+    "note": "From Bob: Hey, I'm having trouble connecting over VPN right now. If you have time tonight, can you submit that overdue software invention disclosure?"
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 28200,
+    "location": "utility room",
+    "tag": "lights",
+    "flag": "off",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 28200,
+    "location": "kitchen",
+    "tag": "dishwasher",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 29200,
+    "location": "master bedroom",
+    "tag": "wifi",
+    "flag": "on",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 29200,
+    "location": "kitchen",
+    "tag": "housekeeper",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "ObjectMove",
+    "timestamp": 30200,
+    "location": "kids bedroom",
+    "tag": "tv_remote",
+    "flag": "on",
+    "priority": 1,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 30200,
+    "location": "kids bedroom",
+    "tag": "kid_1",
+    "flag": "on",
+    "priority": 3,
+    "note": ""
+  },
+  {
+    "type": "Door",
+    "timestamp": 33700,
+    "location": "front porch",
+    "tag": "housekeeper",
+    "flag": "on",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "PersonMoveHome",
+    "timestamp": 34200,
+    "location": "front porch",
+    "tag": "housekeeper",
+    "flag": "on",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "Door",
+    "timestamp": 34300,
+    "location": "front porch",
+    "tag": "housekeeper",
+    "flag": "off",
+    "priority": 2,
+    "note": ""
+  },
+  {
+    "type": "ApplianceStateChange",
+    "timestamp": 44200,
+    "location": "kitchen",
+    "tag": "dishwasher",
+    "flag": "off",
+    "priority": 2,
+    "note": ""
+  }
+]

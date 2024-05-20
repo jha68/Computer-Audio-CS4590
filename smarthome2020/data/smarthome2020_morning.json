@@ -1,0 +1,228 @@
+[{
+		"type": "PersonMoveHome",
+		"timestamp": 100,
+		"location": "guest bath",
+		"tag": "kid_2",
+		"flag": "on",
+		"priority": 2
+	},{
+		"type": "PersonMoveHome",
+		"timestamp": 600,
+		"location": "family room",
+		"tag": "kid_1",
+		"flag": "off",
+		"priority": 2
+	},{
+		"type": "PersonMoveHome",
+		"timestamp": 800,
+		"location": "guest bath",
+		"tag": "kid_2",
+		"flag": "off",
+		"priority": 2
+	},{
+		"type": "ApplianceStateChange",
+		"timestamp": 1000,
+		"location": "kitchen",
+		"tag": "stove",
+		"flag": "on",
+		"priority": 2,
+		"note": "Burner 1 set to high"
+	},{
+		"type": "ApplianceStateChange",
+		"timestamp": 1100,
+		"location": "kitchen",
+		"tag": "stove",
+		"flag": "on",
+		"priority": 2,
+		"note": "Burner 2 set to medium"
+	},{
+		"type": "PersonMoveHome",
+		"timestamp": 1220,
+		"location": "kids bedroom",
+		"tag": "kid_2",
+		"flag": "on",
+		"priority": 2
+	},{
+		"type": "Message",
+		"timestamp": 2000,
+		"location": "Project Apollo Slack",
+		"tag": "spouse_1",
+		"flag": "work",
+		"priority": 1,
+		"note": "From Jill: I'm going to install the sensors at Acme this morning and will drop by the office to check out an Android phone. I'll be working on the app's upload feature this afternoon."
+	},{
+		"type": "Message",
+		"timestamp": 3000,
+		"location": "Project Apollo Slack",
+		"tag": "spouse_1",
+		"flag": "work",
+		"priority": 2,
+		"note": "From Bob: I'm going to be head-down working on the Android app all day today since we have a client demo scheduled for Thursday."
+	},{
+		"type": "PersonStatus",
+		"timestamp": 3000,
+		"tag": "Bob",
+		"flag": "free",
+		"priority": 2
+	},{
+		"type": "Message",
+		"timestamp": 3000,
+		"location": "GitHub",
+		"tag": "Bob",
+		"flag": "work",
+		"priority": 1,
+		"note": "Commit to branch Apollo background-task: Added background task configuration"
+	},{
+		"type": "ApplianceStateChange",
+		"timestamp": 3200,
+		"location": "guest bath",
+		"tag": "lights",
+		"flag": "on",
+		"priority": 3
+	},{
+		"type": "PersonStatus",
+		"timestamp": 3200,
+		"tag": "Jill",
+		"flag": "busy",
+		"priority": 2
+	},{
+		"type": "ApplianceStateChange",
+		"timestamp": 3500,
+		"location": "guest bath",
+		"tag": "sink",
+		"flag": "on",
+		"priority": 2
+	},{
+		"type": "PersonStatus",
+		"timestamp": 3500,
+		"tag": "Jane",
+		"flag": "free",
+		"priority": 2
+	},{
+		"type": "PersonMoveWork",
+		"timestamp": 3502,
+		"location": "remote",
+		"tag": "Jill",
+		"flag": "on",
+		"priority": 1,
+		"note": "Customer Site 2"
+	},{
+		"type": "Door",
+		"timestamp": 5500,
+		"location": "garage",
+		"tag": "housekeeper",
+		"flag": "on",
+		"priority": 3
+	},{
+		"type": "PersonMoveHome",
+		"timestamp": 5525,
+		"location": "kitchen",
+		"tag": "housekeeper",
+		"flag": "off",
+		"priority": 3
+	},{
+		"type": "PersonMoveHome",
+		"timestamp": 5525,
+		"location": "garage",
+		"tag": "housekeeper",
+		"flag": "on",
+		"priority": 3
+	},{
+		"type": "Door",
+		"timestamp": 5550,
+		"location": "garage",
+		"tag": "housekeeper",
+		"flag": "off",
+		"priority": 3
+	},{
+		"type": "Message",
+		"timestamp": 5600,
+		"location": "GitHub",
+		"tag": "Jane",
+		"flag": "work",
+		"priority": 3,
+		"note": "Checkout branch Apollo background-task"
+	},{
+		"type": "Door",
+		"timestamp": 5700,
+		"location": "utility room",
+		"tag": "housekeeper",
+		"flag": "on",
+		"priority": 3
+	},{
+		"type": "PersonMoveHome",
+		"timestamp": 5750,
+		"location": "utility room",
+		"tag": "housekeeper",
+		"flag": "on",
+		"priority": 3
+	},{
+		"type": "ApplianceStateChange",
+		"timestamp": 5800,
+		"location": "utility room",
+		"tag": "lights",
+		"flag": "on",
+		"priority": 3
+	},{
+		"type": "ObjectMove",
+		"timestamp": 6000,
+		"location": "family room",
+		"tag": "tv_remote",
+		"flag": "off",
+		"priority": 2
+	},{
+		"type": "Meeting",
+		"timestamp": 6200,
+		"location": "BlueJeans",
+		"tag": "accepted",
+		"priority": 1,
+		"note": "Project Apollo dev team status"
+	},{
+		"type": "PersonStatus",
+		"timestamp": 6200,
+		"tag": "Jane",
+		"flag": "busy",
+		"priority": 2
+	},{
+		"type": "PersonStatus",
+		"timestamp": 6200,
+		"tag": "Jill",
+		"flag": "busy",
+		"priority": 2
+	},{
+		"type": "PersonStatus",
+		"timestamp": 6200,
+		"tag": "Bob",
+		"flag": "busy",
+		"priority": 2
+	},{
+		"type": "ApplianceStateChange",
+		"timestamp": 6550,
+		"location": "kids bedroom",
+		"tag": "lights",
+		"flag": "on",
+		"priority": 3
+	},{
+		"type": "PersonMoveWork",
+		"timestamp": 6900,
+		"location": "office",
+		"tag": "Jill",
+		"flag": "off",
+		"priority": 1
+	},{
+		"type": "ApplianceStateChange",
+		"timestamp": 7000,
+		"location": "utility room",
+		"tag": "washing machine",
+		"flag": "on",
+		"priority": 3
+	},{
+		"type": "PersonMoveWork",
+		"timestamp": 7100,
+		"location": "remote",
+		"tag": "Jill",
+		"flag": "off",
+		"priority": 1,
+		"note": "Customer Site 2"
+	}
+]

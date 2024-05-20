@@ -1,0 +1,81 @@
+[
+  {
+    "timestamp": 2000,
+    "type": "BoardingAssistance",
+    "note": "The downstairs entrance for the red line platform is three meters ahead, to the left.",
+    "priority": 2,
+    "duration": 4500
+  },
+  {
+    "timestamp": 3000,
+    "type": "AmenitiesAlert",
+    "location": "Left",
+    "tag": "Directional sign",
+    "priority": 1,
+    "proximity": 2,
+    "duration": 3000
+  },
+  {
+    "timestamp": 8000,
+    "type": "ObstacleAlert",
+    "location": "Left",
+    "tag": "Building structure",
+    "priority": 1,
+    "proximity": 3,
+    "duration": 3000
+  },
+  {
+    "timestamp": 29000,
+    "type": "ObstacleAlert",
+    "location": "Right",
+    "tag": "Electronic display",
+    "priority": 1,
+    "proximity": 2,
+    "duration": 3000
+  },
+  {
+    "timestamp": 35000,
+    "type": "AmenitiesAlert",
+    "location": "Right",
+    "note": "There's a bench on your right side.",
+    "tag": "Bench",
+    "priority": 2,
+    "proximity": 4,
+    "duration": 5000,
+    
+  },
+  {
+    "timestamp": 40000,
+    "type": "TimetableUpdate",
+    "note": "Thirty seconds left before the red line train to the north arrives.",
+    "priority": 1,
+    "duration": 3000
+  },
+  {
+    "timestamp": 70000,
+    "type": "TrainIncomingMusic",
+    "priority": 1
+  },
+  {
+    "timestamp": 79000,
+    "type": "TimetableUpdate",
+    "note": "The Red line train to the north is arriving soon.",
+    "priority": 1,
+    "duration": 2000
+  },
+  {
+    "timestamp": 113000,
+    "type": "BoardingAssistance",
+    "note": "The train has arrived",
+    "priority": 1,
+    "duration": 1500
+  },
+  {
+    "timestamp": 113000,
+    "type": "DirectionalGuidance",
+    "location": "Left",
+    "priority": 1,
+    "proximity": 3,
+    "duration": 4000
+  }
+]
